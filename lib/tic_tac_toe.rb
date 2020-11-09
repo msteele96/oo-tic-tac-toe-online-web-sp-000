@@ -15,11 +15,7 @@ class TicTacToe
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
 
-<<<<<<< HEAD
-  def display_board
-=======
   def display_board(@board)
->>>>>>> 14afd6a559fd6fdc447c0d3b4074027cd8a90a40
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
     puts "-----------"
     puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
@@ -27,7 +23,6 @@ class TicTacToe
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
 
-<<<<<<< HEAD
   def input_to_index(input)
     input.to_i - 1
   end
@@ -125,6 +120,4 @@ class TicTacToe
       end
   end
 
-=======
->>>>>>> 14afd6a559fd6fdc447c0d3b4074027cd8a90a40
 end
